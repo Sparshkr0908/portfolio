@@ -7,21 +7,87 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- main  -->
+<main>
+    <!-- side bar -->
+        <aside class="sidebar">
+        <div class="content">
+         <figure class="image">
+                <img src="./image/f58516904.jpg" alt="profile photo">
+            </figure>
+            <div>
+                <h1 class="name" title="kumar sparsh">Kumar sparsh</h1>
+            </div>
+            <div class="title">
+                <p>Web Developement</p>
+            </div>
+
+            <ul class="contact-list">
+                <li class="contact-item">
+                <div class="contact-info">
+                    <p class="contact-title">Email</p>
+                    <a href="mailto: sparshkumar0410@gmail.com" class="contact-link">sparshkumar0410@gmail.com</a>
+                </div>
+                </li>
+                <li class="contact-item">
+                <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+                    <a href="tel: +919905020728" class="contact-link">+91 9905020728</a>
+                </div>
+                </li>
+                <li class="contact-item">
+                <div class="contact-info">
+                    <p class="contact-title"> Birthday</p>
+                    <time datetime="2004-10-04">4th October 2004</time>
+                </div>
+                </li>
+                <li class="contact-item">
+                <div class="contact-info">
+                    <p class="contact-title">Location</p>
+                    <address>Boring road, Patna, Bihar, India</address>
+                </div>
+                </li>
+            </ul>
+        </div>
+     </aside>
     <div class="container">
-        <header>
             <nav>
                 <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Resume</li>
-                <li>Contact</li>
-                <li>Project</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
-        </header>
+        <!-- this is the about section -->
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda repudiandae reiciendis corrupti quis rerum fugiat sequi maiores, perferendis exercitationem aut. Facilis reprehenderit eveniet in consequatur numquam ipsa quis. Obcaecati dolor harum culpa ullam quaerat temporibus reprehenderit labore, consectetur, totam sequi tempore et. Tempora, nisi. Qui inventore minima unde saepe quod placeat, quia delectus numquam accusantium voluptatum fugit, amet quidem, natus dignissimos soluta sapiente. Aut fugiat dicta autem quidem iusto provident accusamus eos atque maxime ea ad beatae, qui quos nihil dignissimos explicabo ex quis ratione soluta. Magni, iste, quidem corporis ab quaerat accusantium repellendus tenetur officia quasi aliquid dolorem rem?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste obcaecati quibusdam corporis reprehenderit laudantium maxime nobis dolorum molestiae voluptatibus itaque, quas necessitatibus praesentium architecto amet cum, nesciunt harum ipsam quis!</p>
+            </section>
+            
+            <section id="project">
+                <h2>Projects</h2>
+                <div class="project">
+                <h3>Netflix Clone</h3>
+                <p>A basic Netflix landing page clone using HTML & CSS</p>
+                <a href="#">View Project</a>
+                </div>
+
+                <div class="project">
+                <h3>Weather App</h3>
+                <p>Live Weather API powered app built with JS</p>
+                <a href="#">View Project</a>
+                </div>
+
+                <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>My own personal responsive portfolio site</p>
+                <a href="#">View Project</a>
+                </div>
+            </section>
     </div>
-    <div class="content">
-            <div class="image"> <img src="./image/f58516904.jpg" alt="profile photo"></div>
-    </div>
+</main>
 </body>
 </html>
